@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:hsl(27, 66%, 92%);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.main{
+    width:350px;
+}
+.balance{
+    color:hsl(27, 66%, 92%);
+    font-size:13px;
+}
+.dolard{
+    font-family:font-family: 'DM Sans', sans-serif;
+    font-weight:bold;
+    color:white;
+    font-size:24px;
+    margin-top:7px;
+}
+.img{
+    width:50px;
+    height:50px;
+    margin-right:10px;
+}
+.div_header{
+    background-color:hsl(10, 79%, 65%);
+    border-radius:15px;
+    display:flex;
+    justify-content:space-between;
+    height:51px;
+    padding:15px;
+}
+.div_bottom{
+    background-color:white;
+    border-radius:15px;
+    margin-top:17px;
+    padding-right:20px;
+    padding-top:24px;
+    padding-left:20px;
+    padding-bottom:25px;
+}
+.spend{
+    font-weight:bold;
+    font-family:arial;
+    font-size:21px;
+}
+.diagram{
+    
+    display:flex;
+    justify-content:space-around;
+    margin-top:38px;
+}
+.bloc{
+    display:flex;
+    flex-direction:column;
+    justify-content:end;
+    width:10.5%;
+}
+.day1{
+    background-color:hsl(10, 79%, 65%);
+    border-radius:5px;
+    height:34px;
+}
+.day2{
+    background-color:hsl(10, 79%, 65%);
+    border-radius:5px;
+    height:68px;
+}
+.day3{
+    background-color:hsl(186, 34%, 60%);
+    border-radius:5px;
+    height:104px;
+}
+.day4{
+    background-color:hsl(10, 79%, 65%);
+    border-radius:5px;
+    height:60px;
+}
+.day5{
+    background-color:hsl(10, 79%, 65%);
+    border-radius:5px;
+    height:43px;
+}
+.day6{
+    background-color:hsl(10, 79%, 65%);
+    border-radius:5px;
+    height:80px;
+}
+.day7{
+    background-color:hsl(10, 79%, 65%);
+    border-radius:5px;
+    height:43px;
+}
+.label{
+    color:hsl(28, 10%, 53%);
+    font-size:14px;
+    margin-top:5px;
+    text-align:center;
+}
+.separator{
+    background-color:hsl(27, 66%, 92%);
+    height:1px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-top:25px;
+}
+.footer{
+    display:flex;
+    justify-content:space-between;
+}
+.footleft{
+    margin-top:22px;
+}
+.footright{
+    margin-top:35px;
+}
+.total, .month{
+    color:hsl(28, 10%, 53%);
+    font-size:14px;
+    font-family:roboto;
+}
+.prix{
+    font-weight:bold;
+    font-size:32px;
+}
+.pourcent{
+    font-weight:bold;
+    padding-left:40px;
+}
